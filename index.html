@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <center>
+        <h1>Music player</h1>
+      
+        <audio id="audioPlayer" controls>
+          <source src="./music/ragtime-logo-standard-version-116100.mp3" type="audio/mpeg">
+        </audio>
+    <!-- <audio src="./music/laughter-140503.mp3"></audio> -->
+
+        <button class="buttons" id="pause-button">Pause</button>
+        <button class="buttons" id="play-button">Play</button>
+    
+    
+        <div>
+          <button class="songs" onclick="playAudio('song1')">Song 1</button>
+          <button class="songs" onclick="playAudio('song2')">Song 2</button>
+          <button class="songs" onclick="playAudio('song3')">Song 3</button>
+        </div>
+    </center>
+
+
+  <script src="./index.js"></script>
+</body>
+</html>
